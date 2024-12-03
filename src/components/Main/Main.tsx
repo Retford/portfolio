@@ -3,19 +3,26 @@ import { CurriculumIcon } from '../../assets/icons/CurriculumIcon';
 import { SocialNetworks } from '../SocialNetworks';
 import { About } from './About';
 import { Experience } from './Experience';
+import { Projects } from './Projects';
 import { Technology } from './Technology';
 
 export const Main = () => {
   return (
     <main className='p-4 flex flex-col justify-center items-center gap-16'>
-      <section className='justify-center items-center text-center flex gap-12 flex-col h-96'>
-        <div className='gap-5 flex flex-col'>
-          <h4 className='dark:text-[#E4ECFF] text-xs'>
-            Hola 👋, soy Retford O&#39;briam
-          </h4>
-          <h2 className='text-5xl font-bold'>React Frontend Developer</h2>
+      <section
+        className='justify-between items-center text-center flex gap-12 flex-col'
+        style={{ height: 'calc(100vh - 166px)' }}
+      >
+        <div className='flex flex-col gap-16 pt-56'>
+          <div className='gap-5 flex flex-col'>
+            <h4 className='dark:text-[#E4ECFF] text-xs'>
+              Hola 👋, soy Retford O&#39;briam
+            </h4>
+            <h2 className='text-5xl font-bold'>React Frontend Developer</h2>
+          </div>
+          <SocialNetworks />
         </div>
-        <SocialNetworks />
+
         <div className='flex gap-4 text-sm font-medium'>
           <button
             className='border-[1px] border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4'
@@ -44,6 +51,7 @@ export const Main = () => {
       <About />
       <Experience />
       <Technology />
+      <Projects />
     </main>
   );
 };
