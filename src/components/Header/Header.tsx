@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <header className='flex items-center justify-around sticky top-0 backdrop-blur-lg z-10'>
+    <header className='flex items-center justify-around sticky top-0 backdrop-blur-lg z-10 sm:container'>
       <img
         src='/src/assets/images/logo-dark-mode.png'
         alt='logo'

@@ -5,8 +5,10 @@ import { Main } from './components/Main/Main';
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <div className='grid place-content-center'>
+        <Header />
+        <Main />
+      </div>
       <Footer />
     </>
   );

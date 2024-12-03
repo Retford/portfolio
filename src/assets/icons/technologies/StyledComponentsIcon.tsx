@@ -1,12 +1,16 @@
-import { SVGProps } from 'react';
+import { forwardRef, SVGProps } from 'react';
 
-export function StyledComponentsIcon(props: SVGProps<SVGSVGElement>) {
+export const StyledComponentsIcon = forwardRef<
+  SVGSVGElement,
+  SVGProps<SVGSVGElement>
+>((props, ref) => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       width='1em'
       height='1em'
       viewBox='0 0 256 256'
+      ref={ref}
       {...props}
     >
       <g fill='none'>
@@ -66,4 +70,4 @@ export function StyledComponentsIcon(props: SVGProps<SVGSVGElement>) {
       </g>
     </svg>
   );
-}
+});

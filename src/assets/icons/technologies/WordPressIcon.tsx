@@ -1,12 +1,13 @@
-import { SVGProps } from 'react';
+import { SVGProps, forwardRef } from 'react';
 
-export function WordPressIcon(props: SVGProps<SVGSVGElement>) {
-  return (
+export const WordPressIcon = forwardRef<SVGSVGElement, SVGProps<SVGSVGElement>>(
+  (props, ref) => (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       width='1em'
       height='1em'
       viewBox='0 0 256 256'
+      ref={ref}
       {...props}
     >
       <g fill='none'>
@@ -25,5 +26,5 @@ export function WordPressIcon(props: SVGProps<SVGSVGElement>) {
         ></path>
       </g>
     </svg>
-  );
-}
+  )
+);
