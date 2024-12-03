@@ -19,13 +19,13 @@ export const Header = () => {
             <a href='#'>Home</a>
           </li>
           <li>
-            <a href='#'>Experiencia</a>
+            <a href='#experience'>Experiencia</a>
           </li>
           <li>
-            <a href='#'>Tecnologías</a>
+            <a href='#technology'>Tecnologías</a>
           </li>
           <li>
-            <a href='#'>Proyectos</a>
+            <a href='#projects'>Proyectos</a>
           </li>
         </ul>
       </nav>

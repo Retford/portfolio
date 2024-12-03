@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <section className='flex gap-6 flex-col'>
       <h4 className='text-4xl font-bold text-center'>Sobre mí</h4>
-      <p className='text-start text-sm'>
+      <p className='text-start text-sm' id='experience'>
         Soy bachiller en Ingeniería de Sistemas y desarrollador frontend con una
         sólida base técnica y un enfoque en el diseño y desarrollo de interfaces
         web modernas, responsivas y funcionales. He trabajado en proyectos que

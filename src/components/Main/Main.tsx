@@ -24,7 +24,9 @@ export const Main = () => {
         </div>
 
         <div className='flex gap-4 text-sm font-medium'>
-          <button
+          <a
+            href='/src/assets/CV/CVRetford-ES.pdf'
+            target='_blank'
             className='border-[1px] border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4'
             style={{
               boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
@@ -32,10 +34,11 @@ export const Main = () => {
               backgroundImage: 'radial-gradient(#000, #00000000)',
             }}
           >
-            Ver mi CV
+            Ver CV
             <CurriculumIcon className='animate-bounce w-5 h-5' />
-          </button>
-          <button
+          </a>
+          <a
+            href='#projects'
             className='border-[1px] border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4'
             style={{
               boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
@@ -45,7 +48,7 @@ export const Main = () => {
           >
             Ver mis proyectos
             <ArrowCoolDown className='animate-bounce w-5 h-5' />
-          </button>
+          </a>
         </div>
       </section>
       <About />

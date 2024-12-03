@@ -107,7 +107,7 @@ const technologies: Technology[] = [
 
 export const Technology = () => {
   return (
-    <section className='flex gap-6 flex-col'>
+    <section className='flex gap-6 flex-col' id='technology'>
       <h4 className='text-4xl font-bold'>Tecnologías</h4>
       {technologies.map((technology, index) => (
         <Tooltip
