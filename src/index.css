@@ -8,3 +8,8 @@
   color: CanvasText;
   background-color: Canvas;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
