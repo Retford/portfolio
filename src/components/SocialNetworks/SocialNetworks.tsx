@@ -1,8 +1,8 @@
-import { FacebookIcon } from '../../assets/icons/socialNetworks/FacebookIcon';
-import { GithubIcon } from '../../assets/icons/socialNetworks/GithubIcon';
-import { InstagramIcon } from '../../assets/icons/socialNetworks/InstagramIcon';
-import { LinkedinIcon } from '../../assets/icons/socialNetworks/LinkedinIcon';
-import { TwitterIcon } from '../../assets/icons/socialNetworks/TwitterIcon';
+import { FacebookIcon } from '@/assets/icons/socialNetworks/FacebookIcon';
+import { GithubIcon } from '@/assets/icons/socialNetworks/GithubIcon';
+import { InstagramIcon } from '@/assets/icons/socialNetworks/InstagramIcon';
+import { LinkedinIcon } from '@/assets/icons/socialNetworks/LinkedinIcon';
+import { TwitterIcon } from '@/assets/icons/socialNetworks/TwitterIcon';
 import { Tooltip } from '@nextui-org/tooltip';
 
 interface SocialNetwork {

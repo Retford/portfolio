@@ -1,5 +1,5 @@
-import { ArrowCoolDown } from '../../assets/icons/ArrowDownIcon';
-import { CurriculumIcon } from '../../assets/icons/CurriculumIcon';
+import { ArrowCoolDown } from '@/assets/icons/ArrowDownIcon';
+import { CurriculumIcon } from '@/assets/icons/CurriculumIcon';
 import { SocialNetworks } from '../SocialNetworks/SocialNetworks';
 import { About } from './About';
 import { Experience } from './Experience';

@@ -1,21 +1,21 @@
 import { Tooltip } from '@nextui-org/tooltip';
 
-import { BitBucketIcon } from '../../../assets/icons/technologies/BitBucketIcon';
-import { Css3Icon } from '../../../assets/icons/technologies/Css3Icon';
-import { GitIcon } from '../../../assets/icons/technologies/GitIcon';
-import { Html5Icon } from '../../../assets/icons/technologies/Html5Icon';
-import { JavaScriptIcon } from '../../../assets/icons/technologies/JavaScriptIcon';
-import { JiraIcon } from '../../../assets/icons/technologies/JiraIcon';
-import { MySQLIcon } from '../../../assets/icons/technologies/MySQLIcon';
-import { NextJsIcon } from '../../../assets/icons/technologies/NextJsIcon';
-import { PostmanIcon } from '../../../assets/icons/technologies/PostmanIcon';
-import { ReactIcon } from '../../../assets/icons/technologies/ReactIcon';
-import { StoryBookIcon } from '../../../assets/icons/technologies/StoryBookIcon';
-import { StyledComponentsIcon } from '../../../assets/icons/technologies/StyledComponentsIcon';
-import { TailwindcssIcon } from '../../../assets/icons/technologies/TailwindcssIcon';
-import { TestingLibraryIcon } from '../../../assets/icons/technologies/TestingLibraryIcon';
-import { TypeScriptIcon } from '../../../assets/icons/technologies/TypeScriptIcon';
-import { WordPressIcon } from '../../../assets/icons/technologies/WordPressIcon';
+import { BitBucketIcon } from '@/assets/icons/technologies/BitBucketIcon';
+import { Css3Icon } from '@/assets/icons/technologies/Css3Icon';
+import { GitIcon } from '@/assets/icons/technologies/GitIcon';
+import { Html5Icon } from '@/assets/icons/technologies/Html5Icon';
+import { JavaScriptIcon } from '@/assets/icons/technologies/JavaScriptIcon';
+import { JiraIcon } from '@/assets/icons/technologies/JiraIcon';
+import { MySQLIcon } from '@/assets/icons/technologies/MySQLIcon';
+import { NextJsIcon } from '@/assets/icons/technologies/NextJsIcon';
+import { PostmanIcon } from '@/assets/icons/technologies/PostmanIcon';
+import { ReactIcon } from '@/assets/icons/technologies/ReactIcon';
+import { StoryBookIcon } from '@/assets/icons/technologies/StoryBookIcon';
+import { StyledComponentsIcon } from '@/assets/icons/technologies/StyledComponentsIcon';
+import { TailwindcssIcon } from '@/assets/icons/technologies/TailwindcssIcon';
+import { TestingLibraryIcon } from '@/assets/icons/technologies/TestingLibraryIcon';
+import { TypeScriptIcon } from '@/assets/icons/technologies/TypeScriptIcon';
+import { WordPressIcon } from '@/assets/icons/technologies/WordPressIcon';
 
 interface Technology {
   icon: JSX.Element;
