@@ -8,7 +8,7 @@ import { Technology } from './Technology';
 
 export const Main = () => {
   return (
-    <main className='px-8 py-4 flex flex-col justify-center items-center gap-16 sm:container'>
+    <main className='px-4 py-4 flex flex-col justify-center items-center gap-16 sm:container'>
       <section
         className='justify-between items-center text-center flex gap-12 flex-col'
         style={{ height: 'calc(100vh - 166px)' }}
