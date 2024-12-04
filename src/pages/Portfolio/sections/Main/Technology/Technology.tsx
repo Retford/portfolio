@@ -1,7 +1,8 @@
+import { useSyncExternalStore } from 'react';
+
 import { Tooltip } from '@nextui-org/tooltip';
 
-import { useSyncExternalStore } from 'react';
-import { technologies } from './data/DataTechnology';
+import { technologies } from '@/data/Technologies';
 
 const subscribe: (callback: () => void) => () => void = (callback) => {
   window.addEventListener('resize', callback);

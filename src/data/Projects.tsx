@@ -1,4 +1,4 @@
-import { Project } from '@/pages/interfaces/interfaces';
+import { Project } from '@/types/project';
 
 import { PostmanIcon } from '@/assets/icons/technologies/PostmanIcon';
 import { ReactIcon } from '@/assets/icons/technologies/ReactIcon';

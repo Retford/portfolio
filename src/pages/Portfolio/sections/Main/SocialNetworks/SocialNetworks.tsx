@@ -1,5 +1,6 @@
 import { Tooltip } from '@nextui-org/tooltip';
-import { socialNetworks } from './data/DataSocialNetwork';
+
+import { socialNetworks } from '@/data/SocialNetworks';
 
 export const SocialNetworks = () => {
   return (

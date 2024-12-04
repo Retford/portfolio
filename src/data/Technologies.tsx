@@ -1,4 +1,4 @@
-import { Technology } from '@/pages/interfaces/interfaces';
+import { Technology } from '@/types/technology';
 
 import { BitBucketIcon } from '@/assets/icons/technologies/BitBucketIcon';
 import { Css3Icon } from '@/assets/icons/technologies/Css3Icon';

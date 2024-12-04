@@ -1,12 +1,13 @@
-import { CardProject } from '@/components/Card/CardProject';
-import { projects } from './data/DataProjects';
+import { projects } from '@/data/Projects';
+
+import { Card } from '@/components/Card';
 
 export const Projects = () => {
   return (
     <section className='flex gap-6 flex-col scroll-m-24' id='projects'>
       <h4 className='text-4xl font-bold'>Proyectos</h4>
       {projects.map((project, index) => (
-        <CardProject key={index} {...project} />
+        <Card key={index} {...project} />
       ))}
     </section>
   );

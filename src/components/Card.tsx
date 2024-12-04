@@ -1,6 +1,5 @@
+import { Project } from '@/types/project';
 import { useSyncExternalStore } from 'react';
-
-import { Project } from '@/pages/interfaces/interfaces';
 
 const subscribe: (callback: () => void) => () => void = (callback) => {
   window.addEventListener('resize', callback);
@@ -9,7 +8,7 @@ const subscribe: (callback: () => void) => () => void = (callback) => {
 
 const getSnapshot = () => window.innerWidth - 32;
 
-export const CardProject = ({ title, icons }: Project) => {
+export const Card = ({ title, icons }: Project) => {
   const sizeCardMobile = useSyncExternalStore(subscribe, getSnapshot);
 
   return (

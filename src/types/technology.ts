@@ -18,16 +18,3 @@ export interface Technology {
     | 'MySQL'
     | 'NextJS';
 }
-
-export interface SocialNetwork {
-  icon: JSX.Element;
-  url: string;
-  name: 'LinkedIn' | 'Github' | 'Twitter' | 'Instagram' | 'Facebook';
-}
-
-export interface Project {
-  imageUrl: string;
-  title: string;
-  desc: string;
-  icons: Technology[];
-}
