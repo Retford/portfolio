@@ -4,8 +4,10 @@ import { CurriculumIcon } from '@/assets/icons/CurriculumIcon';
 import { About } from './About';
 import { Experience } from './Experience';
 import { Projects } from './Projects';
-import { SocialNetworks } from './SocialNetworks/SocialNetworks';
 import { Technology } from './Technology';
+
+import { SocialNetworks } from '@/components/SocialNetworks';
+import { socialNetworks } from '@/data/SocialNetworks';
 
 export const Main = () => {
   return (
@@ -21,7 +23,11 @@ export const Main = () => {
             </h4>
             <h2 className='text-5xl font-bold'>React Frontend Developer</h2>
           </div>
-          <SocialNetworks />
+          <div className='flex justify-center items-center gap-8'>
+            {socialNetworks.map((socialNetwork, index) => (
+              <SocialNetworks key={index} {...socialNetwork} />
+            ))}
+          </div>
         </div>
 
         <div className='flex gap-4 text-sm font-medium'>

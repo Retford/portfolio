@@ -8,7 +8,7 @@ const subscribe: (callback: () => void) => () => void = (callback) => {
 
 const getSnapshot = () => window.innerWidth - 32;
 
-export const Card = ({ title, icons }: Project) => {
+export const Cards = ({ title, icons }: Project) => {
   const sizeCardMobile = useSyncExternalStore(subscribe, getSnapshot);
 
   return (
