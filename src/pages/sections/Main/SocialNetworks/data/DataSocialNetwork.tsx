@@ -1,4 +1,4 @@
-import { SocialNetwork } from '@/interfaces/interfaces';
+import { SocialNetwork } from '@/pages/interfaces/interfaces';
 
 import { FacebookIcon } from '@/assets/icons/socialNetworks/FacebookIcon';
 import { GithubIcon } from '@/assets/icons/socialNetworks/GithubIcon';

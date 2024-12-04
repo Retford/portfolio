@@ -1,6 +1,6 @@
 import { useSyncExternalStore } from 'react';
 
-import { Project } from '@/interfaces/interfaces';
+import { Project } from '@/pages/interfaces/interfaces';
 
 const subscribe: (callback: () => void) => () => void = (callback) => {
   window.addEventListener('resize', callback);
