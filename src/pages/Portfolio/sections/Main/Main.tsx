@@ -7,7 +7,7 @@ import { Projects } from './Projects';
 import { Technology } from './Technology';
 
 import { SocialNetworks } from '@/components/SocialNetworks';
-import { socialNetworks } from '@/data/SocialNetworks';
+import { socialNetworks } from '@/data/SocialNetworksData';
 
 export const Main = () => {
   return (
@@ -58,10 +58,10 @@ export const Main = () => {
           </a>
         </div>
       </section>
-      <About />
       <Experience />
-      <Technology />
       <Projects />
+      <Technology />
+      <About />
     </main>
   );
 };

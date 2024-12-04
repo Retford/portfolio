@@ -1,6 +1,6 @@
 import { Tooltip } from '@nextui-org/tooltip';
 
-import { technologies } from '@/data/Technologies';
+import { technologies } from '@/data/TechnologiesData';
 import { useWindowSize } from '@/hooks/useWindowSize';
 
 export const Technology = () => {

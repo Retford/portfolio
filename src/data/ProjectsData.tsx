@@ -5,9 +5,9 @@ import { ReactIcon } from '@/assets/icons/technologies/ReactIcon';
 
 export const projects: Project[] = [
   {
-    imageUrl: '',
-    title: 'xd',
-    desc: '',
+    imageUrl: '/src/assets/images/projects/home-movie-app.png',
+    title: '3D Solar System Planets to Explore',
+    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     icons: [
       {
         icon: (

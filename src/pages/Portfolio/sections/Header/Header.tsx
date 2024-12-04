@@ -16,16 +16,16 @@ export const Header = () => {
       >
         <ul className='flex gap-4 dark:text-[#C1C2D3] font-medium text-sm'>
           <li>
-            <a href='#'>Home</a>
+            <a href='#experience'>Experiencia</a>
           </li>
           <li>
-            <a href='#experience'>Experiencia</a>
+            <a href='#projects'>Proyectos</a>
           </li>
           <li>
             <a href='#technology'>Tecnologías</a>
           </li>
           <li>
-            <a href='#projects'>Proyectos</a>
+            <a href='#about'>Sobre mí</a>
           </li>
         </ul>
       </nav>

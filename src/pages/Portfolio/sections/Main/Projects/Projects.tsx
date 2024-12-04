@@ -1,4 +1,4 @@
-import { projects } from '@/data/Projects';
+import { projects } from '@/data/ProjectsData';
 
 import { Cards } from '@/components/Cards';
 
