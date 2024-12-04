@@ -41,67 +41,83 @@ interface Technology {
 
 const technologies: Technology[] = [
   {
-    icon: <PostmanIcon className='w-14 h-14' />,
+    icon: <PostmanIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'Postman',
   },
   {
-    icon: <ReactIcon className='w-14 h-14' />,
+    icon: <ReactIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'React',
   },
   {
-    icon: <StoryBookIcon className='w-14 h-14' />,
+    icon: (
+      <StoryBookIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'StoryBook',
   },
   {
-    icon: <StyledComponentsIcon className='w-14 h-14' />,
+    icon: (
+      <StyledComponentsIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'Styled-Components',
   },
   {
-    icon: <TailwindcssIcon className='w-14 h-14' />,
+    icon: (
+      <TailwindcssIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'TailwindCSS',
   },
   {
-    icon: <JavaScriptIcon className='w-14 h-14' />,
+    icon: (
+      <JavaScriptIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'JavaScript',
   },
   {
-    icon: <BitBucketIcon className='w-14 h-14' />,
+    icon: (
+      <BitBucketIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'Bitbucket',
   },
   {
-    icon: <Css3Icon className='w-14 h-14' />,
+    icon: <Css3Icon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'CSS3',
   },
   {
-    icon: <GitIcon className='w-14 h-14' />,
+    icon: <GitIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'Git',
   },
   {
-    icon: <Html5Icon className='w-14 h-14' />,
+    icon: <Html5Icon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'HTML5',
   },
   {
-    icon: <JiraIcon className='w-14 h-14' />,
+    icon: <JiraIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'Jira',
   },
   {
-    icon: <WordPressIcon className='w-14 h-14' />,
+    icon: (
+      <WordPressIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'WordPress',
   },
   {
-    icon: <TypeScriptIcon className='w-14 h-14' />,
+    icon: (
+      <TypeScriptIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'TypeScript',
   },
   {
-    icon: <TestingLibraryIcon className='w-14 h-14' />,
+    icon: (
+      <TestingLibraryIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
     name: 'Testing-Library',
   },
   {
-    icon: <MySQLIcon className='w-14 h-14' />,
+    icon: <MySQLIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'MySQL',
   },
   {
-    icon: <NextJsIcon className='w-14 h-14' />,
+    icon: <NextJsIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'NextJS',
   },
 ];
@@ -120,7 +136,7 @@ export const Technology = () => {
     <section className='flex gap-16 flex-col items-center' id='technology'>
       <h4 className='text-4xl font-bold'>Tecnologías</h4>
       <section
-        className='flex gap-5 overflow-x-scroll overflow-y-hidden whitespace-nowrap justify-start sm:justify-center sm:max-w-[600px] sm:flex-wrap pb-5 scroll__Styles'
+        className='flex gap-5 overflow-x-scroll overflow-y-hidden whitespace-nowrap justify-start sm:justify-center sm:max-w-[600px] lg:max-w-[900px] sm:flex-wrap pb-5 scroll__Styles'
         style={{ width: `${widthSectionTechnologies}px` }}
       >
         {technologies.map((technology, index) => (
