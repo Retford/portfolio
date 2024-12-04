@@ -1,15 +1,9 @@
+import { useWindowSize } from '@/hooks/useWindowSize';
 import { Project } from '@/types/project';
-import { useSyncExternalStore } from 'react';
-
-const subscribe: (callback: () => void) => () => void = (callback) => {
-  window.addEventListener('resize', callback);
-  return () => window.removeEventListener('resize', callback);
-};
-
-const getSnapshot = () => window.innerWidth - 32;
 
 export const Cards = ({ title, icons }: Project) => {
-  const sizeCardMobile = useSyncExternalStore(subscribe, getSnapshot);
+  const windowSize = useWindowSize();
+  const sizeCardMobile = windowSize - 32;
 
   return (
     <section
