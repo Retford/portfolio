@@ -1,18 +1,12 @@
-import { useSyncExternalStore } from 'react';
-
 import { Tooltip } from '@nextui-org/tooltip';
 
 import { technologies } from '@/data/Technologies';
-
-const subscribe: (callback: () => void) => () => void = (callback) => {
-  window.addEventListener('resize', callback);
-  return () => window.removeEventListener('resize', callback);
-};
-
-const getSnapshot = () => window.innerWidth - 32;
+import { useWindowSize } from '@/hooks/useWindowSize';
 
 export const Technology = () => {
-  const widthSectionTechnologies = useSyncExternalStore(subscribe, getSnapshot);
+  const windowSize = useWindowSize();
+
+  const widthSectionTechnologies = windowSize - 32;
 
   return (
     <section
