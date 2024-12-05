@@ -12,6 +12,10 @@ export const projects: Project[] = [
     linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
+        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'React',
+      },
+      {
         icon: <NextJsIcon className='w-9 h-9 hover:rounded-full' />,
         name: 'NextJS',
       },
@@ -19,17 +23,41 @@ export const projects: Project[] = [
         icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
         name: 'TailwindCSS',
       },
+    ],
+  },
+  {
+    imageUrl: '',
+    title: 'xd',
+    desc: '',
+    linkProject: 'https://movie-app-mu-nine.vercel.app/',
+    icons: [
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
-        name: 'TailwindCSS',
+        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'React',
       },
+    ],
+  },
+  {
+    imageUrl: '',
+    title: 'xd',
+    desc: '',
+    linkProject: 'https://movie-app-mu-nine.vercel.app/',
+    icons: [
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
-        name: 'TailwindCSS',
+        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'React',
       },
+    ],
+  },
+  {
+    imageUrl: '',
+    title: 'xd',
+    desc: '',
+    linkProject: 'https://movie-app-mu-nine.vercel.app/',
+    icons: [
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
-        name: 'TailwindCSS',
+        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'React',
       },
     ],
   },

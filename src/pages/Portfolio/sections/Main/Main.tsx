@@ -1,53 +1,13 @@
-import { ArrowCoolDown } from '@/assets/icons/ArrowDownIcon';
-import { CurriculumIcon } from '@/assets/icons/CurriculumIcon';
-
-import { About } from './About';
+import { Banner } from './Banner';
 import { Experience } from './Experience';
 import { Projects } from './Projects';
 import { Technology } from './Technology';
-
-import { SocialNetworks } from '@/components/SocialNetworks';
-import { socialNetworks } from '@/data/SocialNetworksData';
+import { About } from './About';
 
 export const Main = () => {
   return (
     <main className='px-4 py-4 flex flex-col justify-center items-start md:items-center gap-16 sm:container'>
-      <section
-        className='justify-between items-center text-center flex gap-12 flex-col'
-        style={{ height: 'calc(100vh - 166px)' }}
-      >
-        <div className='flex flex-col gap-16 pt-56'>
-          <div className='gap-5 flex flex-col'>
-            <h4 className='dark:text-[#E4ECFF] text-xs'>
-              Hola 👋, soy Retford O&#39;briam
-            </h4>
-            <h2 className='text-5xl font-bold'>React Frontend Developer</h2>
-          </div>
-          <div className='flex justify-center items-center gap-8'>
-            {socialNetworks.map((socialNetwork, index) => (
-              <SocialNetworks key={index} {...socialNetwork} />
-            ))}
-          </div>
-        </div>
-
-        <div className='flex gap-4 text-sm font-medium'>
-          <a
-            href='/src/assets/CV/CVRetford-ES.pdf'
-            target='_blank'
-            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style__border'
-          >
-            Ver CV
-            <CurriculumIcon className='animate-bounce w-5 h-5' />
-          </a>
-          <a
-            href='#projects'
-            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style__border'
-          >
-            Ver mis proyectos
-            <ArrowCoolDown className='animate-bounce w-5 h-5' />
-          </a>
-        </div>
-      </section>
+      <Banner />
       <Experience />
       <Projects />
       <Technology />
