@@ -17,7 +17,7 @@ export const SocialNetworks = ({ name, url, icon }: SocialNetwork) => {
         href={url}
         target='_blank'
         rel='noopener noreferrer'
-        className='p-2 border-[1px] border-solid border-white rounded-lg'
+        className='p-2 border border-solid border-white rounded-lg'
         style={{
           boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
           filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',

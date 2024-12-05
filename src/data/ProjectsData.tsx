@@ -1,25 +1,35 @@
 import { Project } from '@/types/project';
 
-import { PostmanIcon } from '@/assets/icons/technologies/PostmanIcon';
 import { ReactIcon } from '@/assets/icons/technologies/ReactIcon';
+import { NextJsIcon } from '@/assets/icons/technologies/NextJsIcon';
+import { TailwindcssIcon } from '@/assets/icons/technologies/TailwindcssIcon';
 
 export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-movie-app.png',
     title: '3D Solar System Planets to Explore',
     desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
-        icon: (
-          <PostmanIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
-        ),
-        name: 'Postman',
+        icon: <NextJsIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'NextJS',
       },
       {
-        icon: (
-          <PostmanIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
-        ),
-        name: 'Postman',
+        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'TailwindCSS',
+      },
+      {
+        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'TailwindCSS',
+      },
+      {
+        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'TailwindCSS',
+      },
+      {
+        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        name: 'TailwindCSS',
       },
     ],
   },
@@ -27,11 +37,10 @@ export const projects: Project[] = [
     imageUrl: '',
     title: 'xd',
     desc: '',
+    linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
-        icon: (
-          <ReactIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
-        ),
+        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
         name: 'React',
       },
     ],

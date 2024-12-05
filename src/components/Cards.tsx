@@ -1,19 +1,79 @@
+// import { FacebookIcon } from '@/assets/icons/socialNetworks/FacebookIcon';
 import { useWindowSize } from '@/hooks/useWindowSize';
 import { Project } from '@/types/project';
 
-export const Cards = ({ title, icons }: Project) => {
+import { Link } from '@nextui-org/link';
+import { Tooltip } from '@nextui-org/tooltip';
+
+export const Cards = ({
+  imageUrl,
+  title,
+  desc,
+  linkProject,
+  icons,
+}: Project) => {
   const windowSize = useWindowSize();
   const sizeCardMobile = windowSize - 32;
+  //430
+  // 18
+  // 412
+
+  // 370
+  // 352
+  // 18
 
   return (
     <section
-      className='lg:max-w-96 lg:max-h-96 bg-white rounded-xl text-black'
-      style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
+      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px]'
+      style={{
+        width: `${sizeCardMobile}px`,
+        height: `${sizeCardMobile}px`,
+        boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
+        filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',
+        backgroundImage: 'radial-gradient(#000, #00000000)',
+      }}
     >
-      <p>{title}</p>
-      {icons.map((icon, index) => (
-        <article key={index}>{icon.icon}</article>
-      ))}
+      <article className='flex flex-col gap-5'>
+        <figure className='rounded-[10px] max-h-[200px] overflow-hidden'>
+          <img src={imageUrl} alt={title} />
+        </figure>
+
+        <div className='flex flex-col gap-[14px]'>
+          <div className='flex flex-col gap-3'>
+            <h4 className='font-bold text-white text-xl line-clamp-1'>
+              {title}
+            </h4>
+            <p className='text-sm text-[#BEC1DD] line-clamp-2'>{desc}</p>
+          </div>
+          <div className='flex justify-between'>
+            <article className='flex gap-2'>
+              {icons.map((icon, index) => (
+                <Tooltip
+                  key={index}
+                  showArrow
+                  placement='bottom'
+                  content={icon.name}
+                  classNames={{
+                    base: ['before:bg-custom-color-700 dark:before:bg-white'],
+                    content: ['py-2 px-4 shadow-xl', 'text-black'],
+                  }}
+                >
+                  {icon.icon}
+                </Tooltip>
+              ))}
+            </article>
+            <Link
+              isExternal
+              href={linkProject}
+              showAnchorIcon
+              // anchorIcon={<FacebookIcon />}
+              className='text-sm'
+            >
+              Ver en directo
+            </Link>
+          </div>
+        </div>
+      </article>
     </section>
   );
 };

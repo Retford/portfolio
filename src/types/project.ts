@@ -4,5 +4,6 @@ export interface Project {
   imageUrl: string;
   title: string;
   desc: string;
+  linkProject: string;
   icons: Technology[];
 }
