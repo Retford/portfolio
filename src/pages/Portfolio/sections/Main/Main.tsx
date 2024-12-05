@@ -34,24 +34,14 @@ export const Main = () => {
           <a
             href='/src/assets/CV/CVRetford-ES.pdf'
             target='_blank'
-            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4'
-            style={{
-              boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
-              filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',
-              backgroundImage: 'radial-gradient(#000, #00000000)',
-            }}
+            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style__border'
           >
             Ver CV
             <CurriculumIcon className='animate-bounce w-5 h-5' />
           </a>
           <a
             href='#projects'
-            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4'
-            style={{
-              boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
-              filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',
-              backgroundImage: 'radial-gradient(#000, #00000000)',
-            }}
+            className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style__border'
           >
             Ver mis proyectos
             <ArrowCoolDown className='animate-bounce w-5 h-5' />

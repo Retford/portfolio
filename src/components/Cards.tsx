@@ -24,14 +24,8 @@ export const Cards = ({
 
   return (
     <section
-      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px]'
-      style={{
-        width: `${sizeCardMobile}px`,
-        height: `${sizeCardMobile}px`,
-        boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
-        filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',
-        backgroundImage: 'radial-gradient(#000, #00000000)',
-      }}
+      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px] style__border'
+      style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
     >
       <article className='flex flex-col gap-5'>
         <figure className='rounded-[10px] max-h-[200px] overflow-hidden'>

@@ -6,14 +6,7 @@ export const Header = () => {
         alt='logo'
         className='h-10 hidden sm:block'
       />
-      <nav
-        className='my-6 border rounded-xl border-custom-color-600 dark:border-custom-color-50 py-4 sm:py-2 px-6'
-        style={{
-          boxShadow: 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
-          filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.25))',
-          backgroundImage: 'radial-gradient(#000, #00000000)',
-        }}
-      >
+      <nav className='my-6 border rounded-xl border-custom-color-600 dark:border-custom-color-50 py-4 sm:py-2 px-6 style__border'>
         <ul className='flex gap-4 dark:text-[#C1C2D3] font-medium text-sm'>
           <li>
             <a href='#experience'>Experiencia</a>
