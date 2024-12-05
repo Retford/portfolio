@@ -26,10 +26,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    imageUrl: '',
+    imageUrl: '/src/assets/images/projects/home-next-car.png',
     title: 'xd',
     desc: '',
-    linkProject: 'https://movie-app-mu-nine.vercel.app/',
+    linkProject: 'https://next-car-mu.vercel.app/',
     icons: [
       {
         icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,

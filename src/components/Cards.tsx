@@ -14,13 +14,6 @@ export const Cards = ({
 }: Project) => {
   const windowSize = useWindowSize();
   const sizeCardMobile = windowSize - 32;
-  //430
-  // 18
-  // 412
-
-  // 370
-  // 352
-  // 18
 
   return (
     <section
@@ -28,8 +21,8 @@ export const Cards = ({
       style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
     >
       <article className='flex flex-col gap-5'>
-        <figure className='rounded-[10px] max-h-[200px] overflow-hidden'>
-          <img src={imageUrl} alt={title} />
+        <figure className='rounded-[10px] max-h-[200px] overflow-hidden aspect-[35/20]'>
+          <img src={imageUrl} alt={title} className='object-cover' />
         </figure>
 
         <div className='flex flex-col gap-[14px]'>
