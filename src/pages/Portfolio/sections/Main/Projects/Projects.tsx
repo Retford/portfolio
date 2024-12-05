@@ -5,7 +5,7 @@ import { ProjectsIcon } from '@/assets/icons/main/ProjectsIcon';
 
 export const Projects = () => {
   return (
-    <section className='flex gap-6 flex-col scroll-m-24' id='projects'>
+    <section className='flex gap-14 flex-col scroll-m-24' id='projects'>
       <h4 className='text-4xl font-bold flex gap-4 items-center'>
         <ProjectsIcon /> Proyectos
       </h4>

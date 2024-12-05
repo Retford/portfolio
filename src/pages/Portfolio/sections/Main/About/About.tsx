@@ -2,7 +2,7 @@ import { AboutIcon } from '@/assets/icons/main/AboutIcon';
 
 export const About = () => {
   return (
-    <section className='flex gap-6 flex-col scroll-m-24' id='about'>
+    <section className='flex gap-14 flex-col scroll-m-24' id='about'>
       <h4 className='text-4xl font-bold flex gap-4 items-center'>
         <AboutIcon /> Sobre mí
       </h4>

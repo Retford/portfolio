@@ -12,7 +12,7 @@ export const Technology = () => {
 
   return (
     <section
-      className='flex gap-16 flex-col items-start scroll-m-24'
+      className='flex gap-14 flex-col items-start scroll-m-24'
       id='technology'
     >
       <h4 className='text-4xl font-bold flex gap-4 items-center'>

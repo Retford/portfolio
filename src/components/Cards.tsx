@@ -8,7 +8,7 @@ import { Tooltip } from '@nextui-org/tooltip';
 export const Cards = ({
   imageUrl,
   title,
-  desc,
+  description,
   linkProject,
   icons,
 }: Project) => {
@@ -30,7 +30,7 @@ export const Cards = ({
             <h4 className='font-bold text-white text-xl line-clamp-1'>
               {title}
             </h4>
-            <p className='text-sm text-[#BEC1DD] line-clamp-2'>{desc}</p>
+            <p className='text-sm text-[#BEC1DD] line-clamp-2'>{description}</p>
           </div>
           <div className='flex justify-between'>
             <article className='flex gap-2'>

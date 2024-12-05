@@ -8,7 +8,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-books-app.png',
     title: 'Books App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://books-context.vercel.app/',
     icons: [
       {
@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-journal-app.png',
     title: 'Journal App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://journal-app-navy-nine.vercel.app/',
     icons: [
       {
@@ -48,7 +48,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-movie-app.png',
     title: 'Movie App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
@@ -68,7 +68,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-heroes-app.png',
     title: 'Heroes App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://heroes-five-blue.vercel.app/',
     icons: [
       {
@@ -88,7 +88,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-car-app.png',
     title: 'Card App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://next-car-mu.vercel.app/',
     icons: [
       {
@@ -100,7 +100,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-pokemon-app.png',
     title: 'Pokemon App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://retford.github.io/Pokedex/',
     icons: [
       {
@@ -112,7 +112,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-alura-geek-app.png',
     title: 'Alura Geek App',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://retford.github.io/AluraGeek/',
     icons: [
       {
@@ -124,7 +124,7 @@ export const projects: Project[] = [
   {
     imageUrl: '/src/assets/images/projects/home-task-crud-app.png',
     title: 'Task App - CRUD',
-    desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
     linkProject: 'https://crud-next-prisma-retford.vercel.app/',
     icons: [
       {
