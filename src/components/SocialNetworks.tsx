@@ -17,7 +17,7 @@ export const SocialNetworks = ({ name, url, icon }: SocialNetwork) => {
         href={url}
         target='_blank'
         rel='noopener noreferrer'
-        className='p-2 border border-solid border-white rounded-lg style__border'
+        className='p-2 border border-solid border-white rounded-lg style-border'
       >
         {icon}
       </a>

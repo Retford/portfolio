@@ -1,7 +1,11 @@
+import { AboutIcon } from '@/assets/icons/main/AboutIcon';
+
 export const About = () => {
   return (
     <section className='flex gap-6 flex-col scroll-m-24' id='about'>
-      <h4 className='text-4xl font-bold text-center'>Sobre mí</h4>
+      <h4 className='text-4xl font-bold flex gap-4 items-center'>
+        <AboutIcon /> Sobre mí
+      </h4>
       <p className='text-start text-sm'>
         Soy bachiller en Ingeniería de Sistemas y desarrollador frontend con una
         sólida base técnica y un enfoque en el diseño y desarrollo de interfaces

@@ -1,7 +1,11 @@
+import { ExperienceIcon } from '@/assets/icons/main/ExperienceIcon';
+
 export const Experience = () => {
   return (
     <section className='flex gap-6 flex-col scroll-m-24' id='experience'>
-      <h4 className='text-4xl font-bold'>Experiencia Laboral</h4>
+      <h4 className='text-4xl font-bold flex gap-4 items-center'>
+        <ExperienceIcon /> Experiencia Laboral
+      </h4>
       <section>
         <ol className='relative border-s border-gray-200 dark:border-gray-700'>
           <li className='mb-10 ms-6'>
