@@ -21,7 +21,7 @@ export const Cards = ({
       style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
     >
       <article className='flex flex-col gap-5'>
-        <figure className='rounded-[10px] max-h-[200px] overflow-hidden aspect-[35/20]'>
+        <figure className='rounded-xl max-h-[200px] overflow-hidden aspect-[35/20]'>
           <img src={imageUrl} alt={title} className='object-cover' />
         </figure>
 
@@ -54,7 +54,7 @@ export const Cards = ({
               href={linkProject}
               showAnchorIcon
               // anchorIcon={<FacebookIcon />}
-              className='text-sm'
+              className='text-sm text-white style-border px-4 rounded-xl'
             >
               Ver en directo
             </Link>

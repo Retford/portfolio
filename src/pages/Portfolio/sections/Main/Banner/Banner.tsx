@@ -29,14 +29,14 @@ export const Banner = () => {
         <a
           href='/src/assets/CV/CVRetford-ES.pdf'
           target='_blank'
-          className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style-border'
+          className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-xl flex items-center justify-center gap-4 style-border'
         >
           Ver CV
           <CurriculumIcon className='animate-bounce w-5 h-5' />
         </a>
         <a
           href='#projects'
-          className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-md flex items-center justify-center gap-4 style-border'
+          className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-xl flex items-center justify-center gap-4 style-border'
         >
           Ver mis proyectos
           <ArrowCoolDown className='animate-bounce w-5 h-5' />
