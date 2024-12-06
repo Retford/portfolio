@@ -16,6 +16,9 @@ import { TailwindcssIcon } from '@/assets/icons/technologies/TailwindcssIcon';
 import { TestingLibraryIcon } from '@/assets/icons/technologies/TestingLibraryIcon';
 import { TypeScriptIcon } from '@/assets/icons/technologies/TypeScriptIcon';
 import { WordPressIcon } from '@/assets/icons/technologies/WordPressIcon';
+import { ViteIcon } from '../assets/icons/technologies/ViteIcon';
+import { FirebaseIcon } from '@/assets/icons/technologies/FirebaseIcon';
+import { PrismaIcon } from '@/assets/icons/technologies/PrismaIcon';
 
 export const technologies: Technology[] = [
   {
@@ -97,5 +100,19 @@ export const technologies: Technology[] = [
   {
     icon: <NextJsIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'NextJS',
+  },
+  {
+    icon: <ViteIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
+    name: 'Vite',
+  },
+  {
+    icon: (
+      <FirebaseIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
+    name: 'Firebase',
+  },
+  {
+    icon: <PrismaIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
+    name: 'Prisma',
   },
 ];

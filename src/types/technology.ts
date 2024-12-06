@@ -17,5 +17,7 @@ export interface Technology {
     | 'Testing-Library'
     | 'MySQL'
     | 'NextJS'
-    | 'Vite';
+    | 'Vite'
+    | 'Firebase'
+    | 'Prisma';
 }
