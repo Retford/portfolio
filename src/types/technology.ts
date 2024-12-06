@@ -16,5 +16,6 @@ export interface Technology {
     | 'TypeScript'
     | 'Testing-Library'
     | 'MySQL'
-    | 'NextJS';
+    | 'NextJS'
+    | 'Vite';
 }
