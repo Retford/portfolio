@@ -17,7 +17,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-books-app.png',
     title: 'Books App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web desarrollada con React que utiliza Context API para la gestión eficiente de estados globales. El sitio permite explorar una lista de libros, acceder a detalles individuales y realizar acciones como marcar favoritos. Este proyecto resalta el uso de tecnologías modernas para optimizar el flujo de datos entre componentes en una interfaz minimalista y responsiva.',
     linkProject: 'https://books-context.vercel.app/',
     icons: [
       {
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-journal-app.png',
     title: 'Journal App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web para crear y gestionar entradas de diario con una interfaz simple y responsiva, desarrollada en React. Ideal para organizar pensamientos o tareas diarias.',
     linkProject: 'https://journal-app-navy-nine.vercel.app/',
     icons: [
       {
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-movie-app.png',
     title: 'Movie App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web desarrollada con React que utiliza la API de TMDB para explorar películas y programas de televisión. Permite buscar títulos populares, ver detalles y descubrir tendencias en una interfaz moderna y responsiva.',
     linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-heroes-app.png',
     title: 'Heroes App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web creada con React que permite explorar personajes de Marvel mediante la API oficial. Incluye funcionalidades como búsqueda, detalles de héroes y una experiencia fluida en dispositivos móviles.',
     linkProject: 'https://heroes-five-blue.vercel.app/',
     icons: [
       {
@@ -107,9 +107,9 @@ export const projects: Project[] = [
   },
   {
     imageUrl: '/src/assets/images/projects/home-car-app.png',
-    title: 'Card App',
+    title: 'Car App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Un sitio web moderno de búsqueda y exploración de autos, diseñado como un showroom virtual. Permite a los usuarios filtrar, buscar y conocer detalles específicos sobre vehículos utilizando datos obtenidos de APIs externas.',
     linkProject: 'https://next-car-mu.vercel.app/',
     icons: [
       {
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-pokemon-app.png',
     title: 'Pokemon App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web interactiva desarrollada en HTML, CSS y JavaScript. Permite explorar una lista completa de Pokémon con sus detalles, estadísticas y habilidades. Los usuarios pueden buscar y filtrar Pokémon, lo que ofrece una experiencia dinámica para descubrir información sobre cada uno de ellos. Ideal para fanáticos de Pokémon y como ejemplo de un proyecto práctico que utiliza APIs para obtener datos en tiempo real.',
     linkProject: 'https://retford.github.io/Pokedex/',
     icons: [
       {
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-alura-geek-app.png',
     title: 'Alura Geek App',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una tienda en línea interactiva construida con HTML, CSS y JavaScript, que simula un e-commerce especializado en productos geek y de cultura pop. Los usuarios pueden navegar por una variedad de artículos, como figuras, ropa y accesorios, con una experiencia de compra dinámica que incluye filtros y una estructura bien organizada. El sitio fue diseñado para ser visualmente atractivo, con un enfoque en una interfaz amigable y fácil de navegar.',
     linkProject: 'https://retford.github.io/AluraGeek/',
     icons: [
       {
@@ -176,7 +176,7 @@ export const projects: Project[] = [
     imageUrl: '/src/assets/images/projects/home-task-crud-app.png',
     title: 'Task App - CRUD',
     description:
-      'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+      'Es una aplicación web desarrollada con Next.js y Prisma que permite gestionar datos de una base de datos a través de un sistema CRUD (Crear, Leer, Actualizar y Eliminar). El proyecto ofrece una interfaz limpia y sencilla para manejar entradas, ideal para aprender cómo integrar bases de datos con aplicaciones modernas en Next.js utilizando Prisma como ORM.',
     linkProject: 'https://crud-next-prisma-retford.vercel.app/',
     icons: [
       {
