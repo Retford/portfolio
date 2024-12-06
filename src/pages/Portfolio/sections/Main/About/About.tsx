@@ -6,7 +6,7 @@ export const About = () => {
       <h4 className='text-4xl font-bold flex gap-4 items-center'>
         <AboutIcon /> Sobre mí
       </h4>
-      <p className='text-start text-sm'>
+      <p className='text-start text-sm lg:text-lg'>
         Soy bachiller en Ingeniería de Sistemas y desarrollador frontend con una
         sólida base técnica y un enfoque en el diseño y desarrollo de interfaces
         web modernas, responsivas y funcionales. He trabajado en proyectos que

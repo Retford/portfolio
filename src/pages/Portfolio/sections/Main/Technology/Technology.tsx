@@ -12,14 +12,14 @@ export const Technology = () => {
 
   return (
     <section
-      className='flex gap-14 flex-col items-start scroll-m-24'
+      className='flex gap-14 flex-col items-start scroll-m-24 w-full'
       id='technology'
     >
       <h4 className='text-4xl font-bold flex gap-4 items-center'>
         <TechnologiesIcon /> Tecnologías
       </h4>
-      <section className='flex flex-col gap-6 w-full text-sm'>
-        <h6 className='flex items-center'>
+      <section className='flex flex-col gap-6 w-full lg:w-1/2 text-sm'>
+        <h6 className='flex items-center lg:text-lg'>
           Información de <span className='font-bold pl-1'>Github</span>
           <GithubIcon className='w-8 h-8 ml-4' />
         </h6>
@@ -30,7 +30,7 @@ export const Technology = () => {
       </section>
 
       <section
-        className='flex gap-5 justify-center sm:max-w-[600px] lg:max-w-[900px] flex-wrap pb-5 style-scroll'
+        className='flex gap-5 justify-center lg:max-w-full flex-wrap pb-5 style-scroll'
         style={{ width: `${widthSectionTechnologies}px` }}
       >
         {technologies.map((technology, index) => (

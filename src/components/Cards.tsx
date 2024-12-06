@@ -17,7 +17,7 @@ export const Cards = ({
 
   return (
     <section
-      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px] style-border'
+      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px] style-border sm:max-w-96 sm:max-h-96 md:max-h-[23rem] md:max-w-[22rem]'
       style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
     >
       <article className='flex flex-col gap-5'>
