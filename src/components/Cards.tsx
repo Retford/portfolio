@@ -8,7 +8,7 @@ export const Cards = ({
   imageUrl,
   title,
   description,
-  linkProject,
+  projectLink,
   icons,
 }: Project) => {
   return (
@@ -44,7 +44,7 @@ export const Cards = ({
             </article>
             <Link
               isExternal
-              href={linkProject}
+              href={projectLink}
               showAnchorIcon
               // anchorIcon={<FacebookIcon />}
               className='text-sm text-white style-border px-4 rounded-xl'

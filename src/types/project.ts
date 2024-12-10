@@ -4,6 +4,7 @@ export interface Project {
   imageUrl: string;
   title: string;
   description: string;
-  linkProject: string;
+  projectLink: string;
+  codeLink: string;
   icons: Technology[];
 }
