@@ -7,8 +7,8 @@ import { SocialNetworks } from '@/components/SocialNetworks';
 
 export const Banner = () => {
   return (
-    <section className='justify-between items-center text-center flex gap-12 flex-col custom-height'>
-      <div className='flex flex-col gap-16 pt-56 max-[400px]:pt-24 max-[400px]:gap-8'>
+    <section className='justify-between items-center text-center flex gap-8 flex-col max-[400px]:gap-12'>
+      <div className='flex flex-col gap-4 max-[400px]:pt-24 max-[400px]:gap-8'>
         <div className='gap-5 flex flex-col'>
           <h4 className='dark:text-[#E4ECFF] text-xs'>
             Hola 👋, soy Retford O&#39;briam
