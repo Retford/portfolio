@@ -8,7 +8,7 @@ export const Header = () => {
           className='h-10 hidden sm:block'
         />
       </a>
-      <nav className='my-6 border rounded-xl border-custom-color-600 dark:border-custom-color-50 py-4 sm:py-2 px-6 style-border max-[400px]:px-2'>
+      <nav className='my-6 border rounded-xl border-custom-color-600 dark:border-custom-color-50 py-4 sm:py-2 px-6 dark:!bg-transparent dark:shadow-inset-white dark:filter dark:drop-shadow max-[400px]:px-2'>
         <ul className='flex gap-4 dark:text-[#C1C2D3] font-medium text-sm max-[400px]:gap-2'>
           <li>
             <a href='#experience'>Experiencia</a>

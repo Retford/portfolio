@@ -13,7 +13,7 @@ export const Technology = () => {
       <h4 className='text-2xl sm:text-3xl lg:text-4xl font-bold flex gap-4 items-center'>
         <TechnologiesIcon /> Tecnologías
       </h4>
-      <section className='flex flex-col gap-6 w-full lg:w-1/2 text-sm'>
+      <section className='flex flex-col gap-6 w-full lg:w-1/3 text-sm'>
         <h6 className='flex items-center lg:text-lg'>
           Información de <span className='font-bold pl-1'>Github</span>
           <GithubIcon className='w-8 h-8 ml-4' />

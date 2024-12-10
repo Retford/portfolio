@@ -24,6 +24,13 @@ export default {
           950: '#282828',
         },
       },
+      boxShadow: {
+        'inset-white': 'inset 0 0 8px 0.82px rgba(255, 255, 255, 0.25)',
+        'drop-shadow': '0 0 8px rgba(255, 255, 255, 0.25)',
+      },
+      backgroundImage: {
+        'radial-dark': 'radial-gradient(#000, #00000000)',
+      },
     },
   },
   plugins: [nextui()],
