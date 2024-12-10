@@ -26,7 +26,7 @@ export const Cards = ({
             <p className='text-sm text-[#BEC1DD] line-clamp-2'>{description}</p>
           </div>
           <div className='flex justify-between'>
-            <article className='flex gap-2'>
+            <article className='flex gap-1 sm:gap-2'>
               {icons.map((icon, index) => (
                 <Tooltip
                   key={index}

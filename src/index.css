@@ -19,7 +19,7 @@ html {
 
 @media (max-width: 400px) {
   .custom-height {
-    height: calc(100vh - 185px);
+    height: calc(100vh - 195px);
   }
 }
 

@@ -21,15 +21,19 @@ export const projects: Project[] = [
     linkProject: 'https://books-context.vercel.app/',
     icons: [
       {
-        icon: <ViteIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: <ViteIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
         name: 'Vite',
       },
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TailwindCSS',
       },
     ],
@@ -42,19 +46,25 @@ export const projects: Project[] = [
     linkProject: 'https://journal-app-navy-nine.vercel.app/',
     icons: [
       {
-        icon: <ViteIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: <ViteIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
         name: 'Vite',
       },
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <FirebaseIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <FirebaseIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'Firebase',
       },
       {
-        icon: <TestingLibraryIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TestingLibraryIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'Testing-Library',
       },
     ],
@@ -67,15 +77,21 @@ export const projects: Project[] = [
     linkProject: 'https://movie-app-mu-nine.vercel.app/',
     icons: [
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <NextJsIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <NextJsIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'NextJS',
       },
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TailwindCSS',
       },
     ],
@@ -88,19 +104,25 @@ export const projects: Project[] = [
     linkProject: 'https://heroes-five-blue.vercel.app/',
     icons: [
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <ViteIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: <ViteIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
         name: 'Vite',
       },
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TailwindCSS',
       },
       {
-        icon: <TestingLibraryIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TestingLibraryIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'Testing-Library',
       },
     ],
@@ -113,19 +135,27 @@ export const projects: Project[] = [
     linkProject: 'https://next-car-mu.vercel.app/',
     icons: [
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <TypeScriptIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TypeScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TypeScript',
       },
       {
-        icon: <NextJsIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <NextJsIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'NextJS',
       },
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TailwindCSS',
       },
     ],
@@ -138,15 +168,19 @@ export const projects: Project[] = [
     linkProject: 'https://retford.github.io/Pokedex/',
     icons: [
       {
-        icon: <Html5Icon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <Html5Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'HTML5',
       },
       {
-        icon: <Css3Icon className='w-9 h-9 hover:rounded-full' />,
+        icon: <Css3Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
         name: 'CSS3',
       },
       {
-        icon: <JavaScriptIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <JavaScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'JavaScript',
       },
     ],
@@ -159,15 +193,19 @@ export const projects: Project[] = [
     linkProject: 'https://retford.github.io/AluraGeek/',
     icons: [
       {
-        icon: <Html5Icon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <Html5Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'HTML5',
       },
       {
-        icon: <Css3Icon className='w-9 h-9 hover:rounded-full' />,
+        icon: <Css3Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
         name: 'CSS3',
       },
       {
-        icon: <JavaScriptIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <JavaScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'JavaScript',
       },
     ],
@@ -180,19 +218,27 @@ export const projects: Project[] = [
     linkProject: 'https://crud-next-prisma-retford.vercel.app/',
     icons: [
       {
-        icon: <ReactIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'React',
       },
       {
-        icon: <NextJsIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <NextJsIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'NextJS',
       },
       {
-        icon: <TailwindcssIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'TailwindCSS',
       },
       {
-        icon: <PrismaIcon className='w-9 h-9 hover:rounded-full' />,
+        icon: (
+          <PrismaIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
         name: 'Prisma',
       },
     ],
