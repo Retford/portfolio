@@ -27,7 +27,7 @@ export const Banner = () => {
 
       <div className='flex gap-4 text-sm font-medium'>
         <a
-          href='/src/assets/CV/CVRetford-ES.pdf'
+          href='/CV/CVRetford-ES.pdf'
           target='_blank'
           className='border border-custom-color-600 dark:border-custom-color-50 p-4 rounded-xl flex items-center justify-center gap-4 style-border'
         >
