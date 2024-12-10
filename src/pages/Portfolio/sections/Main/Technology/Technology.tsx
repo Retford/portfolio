@@ -1,15 +1,10 @@
 import { Tooltip } from '@nextui-org/tooltip';
 
 import { technologies } from '@/data/TechnologiesData';
-import { useWindowSize } from '@/hooks/useWindowSize';
 import { GithubIcon } from '@/assets/icons/socialNetworks/GithubIcon';
 import { TechnologiesIcon } from '@/assets/icons/main/TechnologiesIcon';
 
 export const Technology = () => {
-  const windowSize = useWindowSize();
-
-  const widthSectionTechnologies = windowSize - 32;
-
   return (
     <section
       className='flex gap-14 flex-col items-start scroll-m-24 w-full'
@@ -29,10 +24,7 @@ export const Technology = () => {
         />
       </section>
 
-      <section
-        className='flex gap-5 justify-center lg:max-w-full flex-wrap pb-5 style-scroll'
-        style={{ width: `${widthSectionTechnologies}px` }}
-      >
+      <section className='flex gap-5 justify-center lg:max-w-full flex-wrap pb-5 style-scroll'>
         {technologies.map((technology, index) => (
           <Tooltip
             key={index}

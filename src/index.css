@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.custom-height {
+  height: calc(100vh - 166px);
+}
+
 @media (max-width: 475px) {
   .style-scroll::-webkit-scrollbar {
     display: none;

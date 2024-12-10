@@ -1,5 +1,4 @@
 // import { FacebookIcon } from '@/assets/icons/socialNetworks/FacebookIcon';
-import { useWindowSize } from '@/hooks/useWindowSize';
 import { Project } from '@/types/project';
 
 import { Link } from '@nextui-org/link';
@@ -12,14 +11,8 @@ export const Cards = ({
   linkProject,
   icons,
 }: Project) => {
-  const windowSize = useWindowSize();
-  const sizeCardMobile = windowSize - 32;
-
   return (
-    <section
-      className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px] style-border sm:max-w-96 sm:max-h-96 md:max-h-[23rem] md:max-w-[22rem]'
-      style={{ width: `${sizeCardMobile}px`, height: `${sizeCardMobile}px` }}
-    >
+    <section className='lg:max-w-96 lg:max-h-96 bg-transparent rounded-xl text-black py-[15px] px-[14px] style-border sm:max-w-96 sm:max-h-96 md:max-h-[23rem] md:max-w-[22rem]'>
       <article className='flex flex-col gap-5'>
         <figure className='rounded-xl max-h-[200px] overflow-hidden aspect-[35/20]'>
           <img src={imageUrl} alt={title} className='object-cover' />
