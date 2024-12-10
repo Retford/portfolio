@@ -13,13 +13,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.custom-height {
-  height: calc(100vh - 166px);
-}
-
-@media (max-width: 400px) {
+@media (min-width: 1024px) {
   .custom-height {
-    height: calc(100vh - 195px);
+    height: calc(100vh - 166px);
   }
 }
 

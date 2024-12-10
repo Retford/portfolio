@@ -10,7 +10,7 @@ export const Technology = () => {
       className='flex gap-14 flex-col items-start scroll-m-24 w-full'
       id='technology'
     >
-      <h4 className='text-4xl font-bold flex gap-4 items-center'>
+      <h4 className='text-2xl sm:text-3xl lg:text-4xl font-bold flex gap-4 items-center'>
         <TechnologiesIcon /> Tecnologías
       </h4>
       <section className='flex flex-col gap-6 w-full lg:w-1/2 text-sm'>
