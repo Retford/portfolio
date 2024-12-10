@@ -31,6 +31,20 @@ export default {
       backgroundImage: {
         'radial-dark': 'radial-gradient(#000, #00000000)',
       },
+      keyframes: {
+        growLeftToRight: {
+          '0%': { transform: 'scaleX(0)', transformOrigin: 'left' },
+          '100%': { transform: 'scaleX(1)', transformOrigin: 'left' },
+        },
+        growRightToLeft: {
+          '0%': { transform: 'scaleX(0)', transformOrigin: 'right' },
+          '100%': { transform: 'scaleX(1)', transformOrigin: 'right' },
+        },
+      },
+      animation: {
+        growLeftToRight: 'growLeftToRight 2s infinite ease-in-out',
+        growRightToLeft: 'growRightToLeft 2s infinite ease-in-out',
+      },
     },
   },
   plugins: [nextui()],
