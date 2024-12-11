@@ -9,7 +9,7 @@ export const Banner = () => {
   return (
     <section className='justify-between items-center text-center flex gap-8 max-sm:gap-24 flex-col max-[400px]:gap-32 lg:gap-12 custom-height'>
       <div className='flex flex-col gap-4 max-[400px]:pt-24 max-[400px]:gap-8 max-sm:pt-20 lg:gap-16 lg:pt-56'>
-        <div className='gap-5 flex flex-col'>
+        <div className='gap-8 flex flex-col'>
           <h4 className='dark:text-[#E4ECFF] text-xs'>
             Hola 👋, soy Retford O&#39;briam
           </h4>
@@ -21,7 +21,6 @@ export const Banner = () => {
           ))}
         </div>
       </div>
-
       <div className='flex gap-4 text-sm font-medium'>
         <a
           href='/CV/CVRetford-ES.pdf'

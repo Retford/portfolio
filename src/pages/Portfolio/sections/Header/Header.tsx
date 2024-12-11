@@ -49,8 +49,10 @@ export const Header = () => {
     (windowSize >= 1281 && value > 3050 && value < 6000);
 
   return (
-    <header className='flex items-center justify-center sm:justify-around sticky top-0 backdrop-blur-lg z-10 sm:container'>
-      <a href='/'>
+    <header
+      className={`flex items-center justify-center sm:justify-around sticky top-0 backdrop-blur-lg z-10 sm:container`}
+    >
+      <a href='/' className='bg-custom-color-950 rounded-xl'>
         <img
           src='/images/logo-dark-mode.png'
           alt='logo'
@@ -58,9 +60,9 @@ export const Header = () => {
         />
       </a>
       <nav
-        className={`my-6 rounded-xl border-custom-color-600  py-4 sm:py-2 px-6  max-[400px]:px-2 ${
+        className={`my-6 rounded-xl border-custom-color-600 py-4 sm:py-2 px-6  max-[400px]:px-2 ${
           value > 0
-            ? 'border-none bg-custom-color-950'
+            ? 'border-none bg-custom-color-950 text-white'
             : 'border dark:border-custom-color-50 dark:!bg-transparent dark:shadow-inset-white dark:filter dark:drop-shadow'
         }`}
       >
