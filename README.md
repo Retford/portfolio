@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente de mi portafolio personal, desarrollado para mostrar mis habilidades, proyectos y experiencia como desarrollador frontend.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tecnologías modernas**: El proyecto está construido con React, TypeScript, y TailwindCSS, garantizando una interfaz moderna, responsiva y escalable.
+- **Diseño responsivo**: Optimizado para ofrecer una experiencia de usuario fluida en dispositivos móviles, tabletas y escritorios.
+- **Animaciones interactivas**: Utiliza bibliotecas como AOS para efectos de desplazamiento y transiciones visuales atractivas.
+- **Contenido dinámico**: Sección de proyectos que se actualiza para reflejar mis trabajos más recientes.
 
-## Expanding the ESLint configuration
+## Instalación y uso
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clona el repositorio:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   ```bash
+   git clone https://github.com/Retford/portfolio.git
+   cd portfolio
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Instala las dependencias:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```bash
+   yarn install
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Inicia el servidor de desarrollo:
+
+   ```bash
+   yarn dev
+   ```
+
+4. Abre [http://localhost:5173](http://localhost:5173) en tu navegador para ver el portafolio en acción.
+
+## Estructura del proyecto
+
+- **`src/pages`**: Contiene las páginas principales del portafolio.
+- **`src/components`**: Componentes reutilizables como el header, footer, y secciones de contenido.
+- **`src/styles`**: Configuración de TailwindCSS y estilos globales.
+
+## Próximas mejoras
+
+- Agregar una funcionalidad de modo oscuro más personalizada.
+- Integración con una API para manejar contenido dinámico.
+- Optimización adicional para mejorar el rendimiento.
+
+---
+
+Cualquier comentario o sugerencia será bien recibido. ¡Gracias por visitar mi portafolio!
