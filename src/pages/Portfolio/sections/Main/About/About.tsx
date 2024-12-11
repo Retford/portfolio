@@ -10,7 +10,7 @@ export const About = () => {
         <img
           src='/images/profile/profile.webp'
           alt='profile'
-          className='rounded-xl p-4 dark:bg-transparent shadow-inset-white shadow-custom-color-800 dark:shadow-inset-white dark:filter dark:drop-shadow max-w-80 max-h-full object-cover sm:order-1 lg:rotate-3 dark:rotate-0'
+          className='rounded-xl p-4 dark:bg-transparent shadow-inset-white shadow-custom-color-800 dark:shadow-inset-white dark:filter dark:drop-shadow max-w-80 max-h-full object-cover sm:order-1'
         />
         <div className='text-pretty flex flex-col gap-4 text-start text-sm lg:text-base xl:text-lg dark:text-[#BEC1DD]'>
           <p>
