@@ -50,7 +50,7 @@ export const Header = () => {
       </a>
       <nav
         className={`my-6 rounded-xl border-custom-color-600  py-4 sm:py-2 px-6  max-[400px]:px-2 ${
-          value > 200
+          value > 0
             ? 'border-none bg-custom-color-950'
             : 'border dark:border-custom-color-50 dark:!bg-transparent dark:shadow-inset-white dark:filter dark:drop-shadow'
         }`}
