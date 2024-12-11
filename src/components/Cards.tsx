@@ -106,7 +106,7 @@ export const Cards = ({
 
                     <div className='flex flex-col gap-[14px]'>
                       <div className='flex flex-col gap-3'>
-                        <p className='text-sm dark:text-[#BEC1DD] text-black max-[575px]:line-clamp-5'>
+                        <p className='text-sm dark:text-[#BEC1DD] text-black max-[575px]:line-clamp-[10]'>
                           {description}
                         </p>
                       </div>

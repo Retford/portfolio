@@ -16,28 +16,37 @@ export const Header = () => {
   console.log('xd', windowSize);
 
   const isExperienceActive =
-    (windowSize <= 440 && value > 400 && value < 1700) ||
-    (windowSize <= 441 && value > 300 && value < 1400) ||
-    (windowSize <= 1024 && value > 500 && value < 1200) ||
-    (windowSize >= 1025 && value > 500 && value < 1200);
+    (windowSize <= 440 && value > 400 && value < 1865) ||
+    (windowSize >= 441 && windowSize <= 1023 && value > 250 && value < 1000) ||
+    (windowSize >= 1024 && windowSize <= 1280 && value > 500 && value < 1350) ||
+    (windowSize >= 1281 && value > 550 && value < 1260);
 
   const isProjectActive =
-    (windowSize <= 440 && value > 1701 && value < 4770) ||
-    (windowSize >= 441 && value > 1401 && value < 4675) ||
-    (windowSize >= 1024 && value > 1201 && value < 2950) ||
-    (windowSize >= 1025 && value > 1201 && value < 2650);
+    (windowSize <= 440 && value > 1865 && value < 4900) ||
+    (windowSize >= 441 && windowSize <= 1023 && value > 1000 && value < 2700) ||
+    (windowSize >= 1024 &&
+      windowSize <= 1280 &&
+      value > 1350 &&
+      value < 2650) ||
+    (windowSize >= 1281 && value > 1260 && value < 2650);
 
   const isTechnologyActive =
-    (windowSize <= 440 && value > 4771 && value < 5560) ||
-    (windowSize <= 441 && value > 4676 && value < 5550) ||
-    (windowSize >= 1024 && value > 2951 && value < 3400) ||
-    (windowSize >= 1025 && value > 2651 && value < 3100);
+    (windowSize <= 440 && value > 4900 && value < 5750) ||
+    (windowSize >= 441 && windowSize <= 1023 && value > 2700 && value < 3330) ||
+    (windowSize >= 1024 &&
+      windowSize <= 1280 &&
+      value > 2650 &&
+      value < 2900) ||
+    (windowSize >= 1281 && value > 2650 && value < 3050);
 
   const isAboutActive =
-    (windowSize <= 440 && value > 5561 && value < 6000) ||
-    (windowSize <= 441 && value > 5551 && value < 6000) ||
-    (windowSize >= 1024 && value > 3401 && value < 6000) ||
-    (windowSize >= 1025 && value > 3101 && value < 6000);
+    (windowSize <= 440 && value > 5750 && value < 6000) ||
+    (windowSize >= 441 && windowSize <= 1023 && value > 3330 && value < 6000) ||
+    (windowSize >= 1024 &&
+      windowSize <= 1280 &&
+      value > 2900 &&
+      value < 6000) ||
+    (windowSize >= 1281 && value > 3050 && value < 6000);
 
   return (
     <header className='flex items-center justify-center sm:justify-around sticky top-0 backdrop-blur-lg z-10 sm:container'>
