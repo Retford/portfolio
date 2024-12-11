@@ -2,27 +2,37 @@ import { AboutIcon } from '@/assets/icons/main/AboutIcon';
 
 export const About = () => {
   return (
-    <section className='flex gap-14 flex-col scroll-m-24' id='about'>
+    <section className='flex gap-14 flex-col scroll-m-24 mb-6' id='about'>
       <h4 className='text-2xl sm:text-3xl lg:text-4xl font-bold flex gap-4 items-center'>
         <AboutIcon /> Sobre mí
       </h4>
-      <p className='text-start text-sm lg:text-lg'>
-        Soy bachiller en Ingeniería de Sistemas y desarrollador frontend con una
-        sólida base técnica y un enfoque en el diseño y desarrollo de interfaces
-        web modernas, responsivas y funcionales. He trabajado en proyectos que
-        me han permitido desarrollar competencias en tecnologías como React,
-        NextJS, TailwindCSS, HTML, CSS y JavaScript, además de herramientas como
-        WordPress y WooCommerce para soluciones de contenido y comercio digital.
-        Mi formación académica y experiencia en proyectos personales me han
-        permitido abordar desafíos como la optimización de sitios web, la
-        creación de componentes reutilizables y la gestión de servidores
-        LAMP/LEMP. Estas experiencias han consolidado mi capacidad para aprender
-        rápidamente y aplicar mis conocimientos a soluciones reales. Soy
-        apasionado por el desarrollo web y me motiva contribuir a la creación de
-        soluciones digitales innovadoras y escalables. Siempre busco
-        oportunidades para mejorar mis habilidades, colaborar en proyectos
-        desafiantes y aportar valor mediante la tecnología.
-      </p>
+      <article className='flex items-center justify-center gap-8 flex-col sm:flex-row'>
+        <img
+          src='/images/profile/profile.webp'
+          alt='profile'
+          className='rounded-xl p-4 dark:bg-transparent shadow-inset-white shadow-custom-color-800 dark:shadow-inset-white dark:filter dark:drop-shadow max-w-80 max-h-full object-cover sm:order-1 lg:rotate-3 dark:rotate-0'
+        />
+        <div className='text-pretty flex flex-col gap-4 text-start text-sm lg:text-base xl:text-lg dark:text-[#BEC1DD]'>
+          <p>
+            Soy bachiller en Ingeniería de Sistemas y <strong className='dark:text-white'>desarrollador frontend</strong> especializado en crear interfaces web modernas, responsivas y funcionales. Mi experiencia incluye tecnologías como <strong className='dark:text-white'>
+              TailwindCSS, HTML, CSS y JavaScript,</strong> además del uso de <strong className='dark:text-white'> WordPress y
+              React, NextJS, WooCommerce</strong> para soluciones digitales de contenido y comercio.
+          </p>
+          <p>
+            He trabajado en la optimización de sitios web, el desarrollo de
+            componentes reutilizables y la gestión de servidores <strong className='dark:text-white'>LAMP/LEMP</strong>,
+            abordando desafíos técnicos con eficacia y creatividad. Estas
+            experiencias han fortalecido mi capacidad para aprender rápidamente
+            y aplicar soluciones prácticas en proyectos reales.
+          </p>
+          <p>
+            Estoy apasionado por la innovación en el desarrollo web y motivado
+            por contribuir a proyectos desafiantes que generen valor. Siempre
+            busco mejorar mis habilidades y colaborar en equipos que compartan
+            mi compromiso con la excelencia tecnológica.
+          </p>
+        </div>
+      </article>
     </section>
   );
 };

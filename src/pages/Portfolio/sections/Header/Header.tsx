@@ -40,13 +40,13 @@ export const Header = () => {
     (windowSize >= 1281 && value > 2650 && value < 3050);
 
   const isAboutActive =
-    (windowSize <= 440 && value > 5750 && value < 6000) ||
-    (windowSize >= 441 && windowSize <= 1023 && value > 3330 && value < 6000) ||
+    (windowSize <= 440 && value > 5750 && value < 6500) ||
+    (windowSize >= 441 && windowSize <= 1023 && value > 3330 && value < 6500) ||
     (windowSize >= 1024 &&
       windowSize <= 1280 &&
       value > 2900 &&
-      value < 6000) ||
-    (windowSize >= 1281 && value > 3050 && value < 6000);
+      value < 6500) ||
+    (windowSize >= 1281 && value > 3050 && value < 6500);
 
   return (
     <header
