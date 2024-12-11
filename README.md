@@ -40,12 +40,6 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 - **`src/components`**: Componentes reutilizables como el header, footer, y secciones de contenido.
 - **`src/styles`**: Configuración de TailwindCSS y estilos globales.
 
-## Próximas mejoras
-
-- Agregar una funcionalidad de modo oscuro más personalizada.
-- Integración con una API para manejar contenido dinámico.
-- Optimización adicional para mejorar el rendimiento.
-
 ---
 
 Cualquier comentario o sugerencia será bien recibido. ¡Gracias por visitar mi portafolio!

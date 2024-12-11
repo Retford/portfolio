@@ -1,52 +1,55 @@
-import { useWindowSize } from '@/hooks/useWindowSize';
-import { useSyncExternalStore } from 'react';
-
-const subscribe: (callback: () => void) => () => void = (callback) => {
-  window.addEventListener('scroll', callback);
-  return () => window.removeEventListener('scroll', callback);
-};
-
-const getSnapshot = () => window.scrollY;
+import { useWindow } from '@/hooks/useWindow';
 
 export const Header = () => {
-  const value = useSyncExternalStore(subscribe, getSnapshot);
-  console.log(value);
-
-  const windowSize = useWindowSize();
-  console.log('xd', windowSize);
+  const { windowWidth, windowScroll } = useWindow();
 
   const isExperienceActive =
-    (windowSize <= 440 && value > 400 && value < 1865) ||
-    (windowSize >= 441 && windowSize <= 1023 && value > 250 && value < 1000) ||
-    (windowSize >= 1024 && windowSize <= 1280 && value > 500 && value < 1350) ||
-    (windowSize >= 1281 && value > 550 && value < 1260);
+    (windowWidth <= 440 && windowScroll > 400 && windowScroll < 1865) ||
+    (windowWidth >= 441 &&
+      windowWidth <= 1023 &&
+      windowScroll > 250 &&
+      windowScroll < 1000) ||
+    (windowWidth >= 1024 &&
+      windowWidth <= 1280 &&
+      windowScroll > 500 &&
+      windowScroll < 1350) ||
+    (windowWidth >= 1281 && windowScroll > 550 && windowScroll < 1260);
 
   const isProjectActive =
-    (windowSize <= 440 && value > 1865 && value < 4900) ||
-    (windowSize >= 441 && windowSize <= 1023 && value > 1000 && value < 2700) ||
-    (windowSize >= 1024 &&
-      windowSize <= 1280 &&
-      value > 1350 &&
-      value < 2650) ||
-    (windowSize >= 1281 && value > 1260 && value < 2650);
+    (windowWidth <= 440 && windowScroll > 1865 && windowScroll < 4900) ||
+    (windowWidth >= 441 &&
+      windowWidth <= 1023 &&
+      windowScroll > 1000 &&
+      windowScroll < 2700) ||
+    (windowWidth >= 1024 &&
+      windowWidth <= 1280 &&
+      windowScroll > 1350 &&
+      windowScroll < 2650) ||
+    (windowWidth >= 1281 && windowScroll > 1260 && windowScroll < 2650);
 
   const isTechnologyActive =
-    (windowSize <= 440 && value > 4900 && value < 5750) ||
-    (windowSize >= 441 && windowSize <= 1023 && value > 2700 && value < 3330) ||
-    (windowSize >= 1024 &&
-      windowSize <= 1280 &&
-      value > 2650 &&
-      value < 2900) ||
-    (windowSize >= 1281 && value > 2650 && value < 3050);
+    (windowWidth <= 440 && windowScroll > 4900 && windowScroll < 5750) ||
+    (windowWidth >= 441 &&
+      windowWidth <= 1023 &&
+      windowScroll > 2700 &&
+      windowScroll < 3330) ||
+    (windowWidth >= 1024 &&
+      windowWidth <= 1280 &&
+      windowScroll > 2650 &&
+      windowScroll < 2900) ||
+    (windowWidth >= 1281 && windowScroll > 2650 && windowScroll < 3050);
 
   const isAboutActive =
-    (windowSize <= 440 && value > 5750 && value < 6500) ||
-    (windowSize >= 441 && windowSize <= 1023 && value > 3330 && value < 6500) ||
-    (windowSize >= 1024 &&
-      windowSize <= 1280 &&
-      value > 2900 &&
-      value < 6500) ||
-    (windowSize >= 1281 && value > 3050 && value < 6500);
+    (windowWidth <= 440 && windowScroll > 5750 && windowScroll < 6500) ||
+    (windowWidth >= 441 &&
+      windowWidth <= 1023 &&
+      windowScroll > 3330 &&
+      windowScroll < 6500) ||
+    (windowWidth >= 1024 &&
+      windowWidth <= 1280 &&
+      windowScroll > 2900 &&
+      windowScroll < 6500) ||
+    (windowWidth >= 1281 && windowScroll > 3050 && windowScroll < 6500);
 
   return (
     <header
@@ -61,7 +64,7 @@ export const Header = () => {
       </a>
       <nav
         className={`my-6 rounded-xl border-custom-color-600 py-4 sm:py-2 px-6  max-[400px]:px-2 ${
-          value > 0
+          windowScroll > 0
             ? 'border-none bg-custom-color-950 text-white'
             : 'border dark:border-custom-color-50 dark:!bg-transparent dark:shadow-inset-white dark:filter dark:drop-shadow'
         }`}
