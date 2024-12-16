@@ -14,6 +14,32 @@ import { PrismaIcon } from '@/assets/icons/technologies/PrismaIcon';
 
 export const projects: Project[] = [
   {
+    imageUrl: '/images/projects/home-calendar-app.webp',
+    title: 'Calendar App',
+    description:
+      'Aplicación web para gestionar eventos de manera intuitiva. Los usuarios pueden registrarse y crear, editar o eliminar eventos en un calendario personal, con control de permisos que impide a otros usuarios modificar eventos ajenos. Desarrollada con React, Vite y desplegada en Vercel, es completamente responsiva y ofrece una experiencia fluida en dispositivos móviles y de escritorio.',
+    projectLink: 'https://calendar.retford.dev/',
+    codeLink: 'https://github.com/Retford/calendar',
+    icons: [
+      {
+        icon: <ViteIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
+        name: 'Vite',
+      },
+      {
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'React',
+      },
+      {
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'TailwindCSS',
+      },
+    ],
+  },
+  {
     imageUrl: '/images/projects/home-books-app.webp',
     title: 'Books App',
     description:

@@ -4,7 +4,7 @@ export const Header = () => {
   const { windowWidth, windowScroll } = useWindow();
 
   const isExperienceActive =
-    (windowWidth <= 440 && windowScroll > 400 && windowScroll < 1865) ||
+    (windowWidth <= 440 && windowScroll > 400 && windowScroll < 1600) ||
     (windowWidth >= 441 &&
       windowWidth <= 1023 &&
       windowScroll > 250 &&
@@ -16,7 +16,7 @@ export const Header = () => {
     (windowWidth >= 1281 && windowScroll > 550 && windowScroll < 1260);
 
   const isProjectActive =
-    (windowWidth <= 440 && windowScroll > 1865 && windowScroll < 4900) ||
+    (windowWidth <= 440 && windowScroll > 1600 && windowScroll < 4900) ||
     (windowWidth >= 441 &&
       windowWidth <= 1023 &&
       windowScroll > 1000 &&
