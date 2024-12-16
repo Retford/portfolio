@@ -11,6 +11,7 @@ import { JavaScriptIcon } from '@/assets/icons/technologies/JavaScriptIcon';
 import { Html5Icon } from '@/assets/icons/technologies/Html5Icon';
 import { Css3Icon } from '@/assets/icons/technologies/Css3Icon';
 import { PrismaIcon } from '@/assets/icons/technologies/PrismaIcon';
+import { BootstrapIcon } from '@/assets/icons/technologies/BootstrapIcon';
 
 export const projects: Project[] = [
   {
@@ -33,9 +34,9 @@ export const projects: Project[] = [
       },
       {
         icon: (
-          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+          <BootstrapIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
         ),
-        name: 'TailwindCSS',
+        name: 'Bootstrap',
       },
     ],
   },

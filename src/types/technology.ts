@@ -19,5 +19,6 @@ export interface Technology {
     | 'NextJS'
     | 'Vite'
     | 'Firebase'
+    | 'Bootstrap'
     | 'Prisma';
 }
