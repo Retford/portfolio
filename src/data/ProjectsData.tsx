@@ -12,13 +12,49 @@ import { Html5Icon } from '@/assets/icons/technologies/Html5Icon';
 import { Css3Icon } from '@/assets/icons/technologies/Css3Icon';
 import { PrismaIcon } from '@/assets/icons/technologies/PrismaIcon';
 import { BootstrapIcon } from '@/assets/icons/technologies/BootstrapIcon';
+import { SequelizeIcon } from '@/assets/icons/technologies/SequelizeIcon';
+import { ExpressIcon } from '@/assets/icons/technologies/ExpressIcon';
 
 export const projects: Project[] = [
+  {
+    imageUrl: '/images/projects/home-note-app.webp',
+    title: 'Note App',
+    description:
+      'Aplicación web diseñada para gestionar notas de forma eficiente. Incluye un sistema de autenticación mediante JWT con inicio de sesión por correo electrónico y contraseña. El frontend está desarrollado con React y TailwindCSS, mientras que el backend utiliza Node.js, Express, Sequelize y MySQL para una gestión estructurada y segura de los datos. Este proyecto destaca por su arquitectura escalable, un diseño responsivo y funcionalidades enfocadas en la experiencia del usuario. Credenciales para probar user: test@gmail.com password: 123456',
+    projectLink: 'https://note.retford.dev',
+    codeLink: 'https://github.com/Retford/noteapp-frontend',
+    icons: [
+      {
+        icon: (
+          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'React',
+      },
+      {
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'TailwindCSS',
+      },
+      {
+        icon: (
+          <ExpressIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'Express',
+      },
+      {
+        icon: (
+          <SequelizeIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'Sequelize',
+      },
+    ],
+  },
   {
     imageUrl: '/images/projects/home-calendar-app.webp',
     title: 'Calendar App',
     description:
-      'Aplicación web para gestionar eventos de manera intuitiva. Los usuarios pueden registrarse y crear, editar o eliminar eventos en un calendario personal, con control de permisos que impide a otros usuarios modificar eventos ajenos. Desarrollada con React, Vite y desplegada en Vercel, es completamente responsiva y ofrece una experiencia fluida en dispositivos móviles y de escritorio.',
+      'Aplicación web para gestionar eventos de manera intuitiva. Los usuarios pueden registrarse y crear, editar o eliminar eventos en un calendario personal, con control de permisos que impide a otros usuarios modificar eventos ajenos. Desarrollada con React, Vite y desplegada en Vercel, es completamente responsiva y ofrece una experiencia fluida en dispositivos móviles y de escritorio. user: test@gmail.com, password: 123456',
     projectLink: 'https://calendar.retford.dev/',
     codeLink: 'https://github.com/Retford/calendar',
     icons: [
@@ -199,32 +235,6 @@ export const projects: Project[] = [
       'Es una aplicación web interactiva desarrollada en HTML, CSS y JavaScript. Permite explorar una lista completa de Pokémon con sus detalles, estadísticas y habilidades. Los usuarios pueden buscar y filtrar Pokémon, lo que ofrece una experiencia dinámica para descubrir información sobre cada uno de ellos. Ideal para fanáticos de Pokémon y como ejemplo de un proyecto práctico que utiliza APIs para obtener datos en tiempo real.',
     projectLink: 'https://retford.github.io/Pokedex/',
     codeLink: 'https://github.com/Retford/Pokedex',
-    icons: [
-      {
-        icon: (
-          <Html5Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'HTML5',
-      },
-      {
-        icon: <Css3Icon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />,
-        name: 'CSS3',
-      },
-      {
-        icon: (
-          <JavaScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'JavaScript',
-      },
-    ],
-  },
-  {
-    imageUrl: '/images/projects/home-alura-geek-app.webp',
-    title: 'Alura Geek App',
-    description:
-      'Es una tienda en línea interactiva construida con HTML, CSS y JavaScript, que simula un e-commerce especializado en productos geek y de cultura pop. Los usuarios pueden navegar por una variedad de artículos, como figuras, ropa y accesorios, con una experiencia de compra dinámica que incluye filtros y una estructura bien organizada. El sitio fue diseñado para ser visualmente atractivo, con un enfoque en una interfaz amigable y fácil de navegar.',
-    projectLink: 'https://retford.github.io/AluraGeek/',
-    codeLink: 'https://github.com/Retford/AluraGeek',
     icons: [
       {
         icon: (

@@ -20,5 +20,7 @@ export interface Technology {
     | 'Vite'
     | 'Firebase'
     | 'Bootstrap'
-    | 'Prisma';
+    | 'Prisma'
+    | 'Sequelize'
+    | 'Express';
 }

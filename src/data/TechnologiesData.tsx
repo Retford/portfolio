@@ -20,6 +20,8 @@ import { ViteIcon } from '../assets/icons/technologies/ViteIcon';
 import { FirebaseIcon } from '@/assets/icons/technologies/FirebaseIcon';
 import { PrismaIcon } from '@/assets/icons/technologies/PrismaIcon';
 import { BootstrapIcon } from '@/assets/icons/technologies/BootstrapIcon';
+import { SequelizeIcon } from '@/assets/icons/technologies/SequelizeIcon';
+import { ExpressIcon } from '@/assets/icons/technologies/ExpressIcon';
 
 export const technologies: Technology[] = [
   {
@@ -115,6 +117,16 @@ export const technologies: Technology[] = [
   {
     icon: <PrismaIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
     name: 'Prisma',
+  },
+  {
+    icon: (
+      <SequelizeIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />
+    ),
+    name: 'Sequelize',
+  },
+  {
+    icon: <ExpressIcon className='w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20' />,
+    name: 'Express',
   },
   {
     icon: (
