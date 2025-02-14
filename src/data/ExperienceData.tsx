@@ -2,9 +2,9 @@ import { Experience } from '@/types/experience';
 
 export const experiences: Experience[] = [
   {
-    role: 'Digital Engineering',
+    role: 'Frontend Developer',
     company: 'Scotiabank',
-    modality: 'Contrato de prácticas',
+    modality: 'Jornada completa - Híbrida',
     duration: 'nov. 2023 - nov. 2024 · 1 año',
     location: 'Lima, Perú',
     activities: [
@@ -32,9 +32,9 @@ export const experiences: Experience[] = [
   },
 
   {
-    role: 'Desarrollador FullStack',
+    role: 'FullStack Developer',
     company: 'Marketec',
-    modality: 'Jornada completa',
+    modality: 'Jornada completa - Presencial',
     duration: 'may. 2022 - mar. 2023 · 11 meses',
     location: 'Huancayo, Perú',
     activities: [
