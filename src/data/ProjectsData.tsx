@@ -17,6 +17,40 @@ import { ExpressIcon } from '@/assets/icons/technologies/ExpressIcon';
 
 export const projects: Project[] = [
   {
+    imageUrl: '/images/projects/home-teslo-app.png',
+    title: 'Teslo - eCommerce',
+    description:
+      'Es un e-commerce desarrollado con Next.js, TypeScript y TailwindCSS, inspirado en una tienda de ropa y accesorios. Implementa una arquitectura optimizada con Zustand para la gestión del estado y consumo de APIs para la administración de productos y pedidos. Cuenta con autenticación de usuarios con NextAuth, manejo de carrito de compras y una experiencia responsiva para distintos dispositivos. Credenciales para probar, usuario: test@gmail.com password: 123456',
+    projectLink: 'https://teslo.retford.dev/',
+    codeLink: 'https://github.com/Retford/ecommerce',
+    icons: [
+      {
+        icon: (
+          <NextJsIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'NextJS',
+      },
+      {
+        icon: (
+          <TypeScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'TypeScript',
+      },
+      {
+        icon: (
+          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'TailwindCSS',
+      },
+      {
+        icon: (
+          <PrismaIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
+        ),
+        name: 'Prisma',
+      },
+    ],
+  },
+  {
     imageUrl: '/images/projects/home-note-app.webp',
     title: 'Note App',
     description:
@@ -251,40 +285,6 @@ export const projects: Project[] = [
           <JavaScriptIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
         ),
         name: 'JavaScript',
-      },
-    ],
-  },
-  {
-    imageUrl: '/images/projects/home-task-crud-app.webp',
-    title: 'Task App - CRUD',
-    description:
-      'Es una aplicación web desarrollada con Next.js y Prisma que permite gestionar datos de una base de datos a través de un sistema CRUD (Crear, Leer, Actualizar y Eliminar). El proyecto ofrece una interfaz limpia y sencilla para manejar entradas, ideal para aprender cómo integrar bases de datos con aplicaciones modernas en Next.js utilizando Prisma como ORM.',
-    projectLink: 'https://crud-next-prisma-retford.vercel.app/',
-    codeLink: 'https://github.com/Retford/crud-nextjs-prisma/',
-    icons: [
-      {
-        icon: (
-          <ReactIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'React',
-      },
-      {
-        icon: (
-          <NextJsIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'NextJS',
-      },
-      {
-        icon: (
-          <TailwindcssIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'TailwindCSS',
-      },
-      {
-        icon: (
-          <PrismaIcon className='w-8 h-8 lg:w-9 lg:h-9 hover:rounded-full' />
-        ),
-        name: 'Prisma',
       },
     ],
   },
